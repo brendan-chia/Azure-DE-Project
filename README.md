@@ -32,22 +32,6 @@ In short, Script Activity keeps the project agile and easier to maintain while I
 - **Gold layer**: standardized/analytics-ready Delta tables exposed through serverless SQL views.
 - **Orchestration**: pipeline loop dynamically generates SQL per table.
 
-## Project Components
-
-### Root
-
-- `README.md`  
-	Project documentation and design rationale.
-- `pipeline-visualisation.jpg`  
-	Visual reference of the overall orchestration pipeline.
-
-### Databricks
-
-- `databricks-notebook/bronze-to-silver.py`  
-	Notebook logic for Bronze to Silver transformation.
-- `databricks-notebook/silver-to-gold.py`  
-	Notebook logic for Silver to Gold transformation and schema standardization.
-
 ### Pipeline SQL/Loop Logic
 
 - `ForEach Loop/dynamic_sql_query.md`  
