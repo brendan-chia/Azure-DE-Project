@@ -5,6 +5,14 @@ It demonstrates an end-to-end Medallion-style pipeline using Azure Data Factory/
 
 This repo is also maintained as a documentation-first record of the implementation so I can preserve project evidence without repeatedly running cloud resources and incurring charges on my Microsoft Azure student account.
 
+## Business Request
+
+In this project, your company has recognized a gap in understanding its customer demographics—specifically, the gender distribution within the customer base and how it might influence product purchases. With a significant amount of customer data stored in an on-premises SQL database, key stakeholders have requested a comprehensive KPI dashboard. This dashboard should provide insights into sales by gender and product category, showing total products sold, total sales revenue, and a clear gender split among customers. Additionally, they need the ability to filter this data by product category and gender, with a user-friendly interface for date-based queries.
+
+## Our Solution Overview
+
+To address this request, we'll build a robust data pipeline that extracts the on-premises data, loads it into Azure, and performs the necessary transformations to make the data more query-friendly. The transformed data will then feed into a custom-built report that meets all the specified requirements. This pipeline will be scheduled to run automatically every day, ensuring that stakeholders always have access to up-to-date and accurate data.
+
 ## Project Context
 
 This implementation is designed for a **learning and portfolio scenario**, not for production.
